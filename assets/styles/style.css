@@ -1,0 +1,117 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.title p, h1, h2, h3, h4, h5 {
+	font-family: 'Biryani',sans-serif;
+}
+
+.logotop {
+	height: 13vh;
+}
+
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+	background: transparent !important;
+    width:100%;
+}
+
+nav ul li  {
+	padding: 0px 20px
+}
+
+nav ul li a {
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+	border-bottom: 3px solid #00b1cd;
+}
+
+.hh {
+	font-weight: bold;
+}
+
+.hp {
+	font-size: 20px;
+}
+
+.hb{
+	padding: 5px 20px;
+}
+
+header {
+	height: 97vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url('../image/bck1.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	border-top: 5px solid #00b1cd;
+	border-bottom: 5px solid #00b1cd;
+	position: relative;
+}
+
+.wsection {
+	position: relative;
+	widows: 100%;
+	height: 30vh;
+	background-color: #3586ff;
+	overflow: hidden; 
+}
+
+section .wave {
+	position: absolute;
+}
+
+.iot img {
+	width: 60vh;
+}
+
+.iot {
+	height: 26vh;
+}
+
+.testimony img {
+	clip-path: polygon(0 0, 62% 0, 100% 100%, 0% 100%);
+    height: 80vh;
+}
+
+.testimony .logotop1 {
+    height: 20vh;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.abtn {
+    border: 2px solid #e95959;
+    background: #e95959;
+    border-radius: 28px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.qtext {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+
+.icons {
+	color: white;
+}
+
+hr {
+	margin: 10px 200px;
+	border: 1px solid white;
+	border-radius: 20%;W
+}
+
