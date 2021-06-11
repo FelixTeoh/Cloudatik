@@ -14,11 +14,16 @@
 }
 
 .navbar {
-    position:absolute;
+/*    position:absolute;*/
     top:0;
     z-index:10;
 	background: transparent !important;
     width:100%;
+    position: fixed;
+}
+
+.scrolling-active {
+	background-color: gray;
 }
 
 nav ul li  {
@@ -107,6 +112,7 @@ section .wave {
 
 .icons {
 	color: white;
+	padding: 0px 20px;
 }
 
 hr {
